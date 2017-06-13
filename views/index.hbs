@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Draw App</title>
+    <style>
+      body {
+        margin: 7%;
+        padding: 3%;
+        text-align: center;
+      }
+
+      h1 {
+        margin: 5%;
+        padding: 0;
+        letter-spacing: .7em;
+        float: left;
+        text-align: center;
+
+      }
+
+      canvas {
+        border: 2px solid black;
+      }
+
+      #crimson {
+        background-color: crimson;
+        color: antiquewhite;
+        font-size: 1.2em;
+        margin: 2%;
+      }
+
+      #olive-drab {
+        background-color: olivedrab;
+        color: antiquewhite;
+        font-size: 1.2em;
+        margin: 2%;
+      }
+      #royal-blue {
+        background-color: royalblue;
+        color: antiquewhite;
+        font-size: 1.2em;
+        margin: 2%;
+      }
+
+      #golden-rod{
+        background-color: goldenrod;
+        color: antiquewhite;
+        font-size: 1.2em;
+        margin: 2%;
+      }
+
+
+
+
+    </style>
+  </head>
+  <body>
+
+    <h1>DRAW APP</h1>
+    <canvas id="canvas" width="600" height="600"></canvas>
+    <button id="crimson" type="button">CRIMSON</button>
+    <button id="olive-drab" type="button">OLIVE DRAB</button>
+    <button id="royal-blue" type="button">ROYAL BLUE</button>
+    <button id="golden-rod" type="button">GOLDEN ROD</button>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/static/frontend.js"></script>
+
+  </body>
+</html>
